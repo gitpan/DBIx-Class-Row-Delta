@@ -1,5 +1,10 @@
 Revision history for DBIx::Class::Row::Delta
 
+0.0.3     2012-04-20 15:29:05 Europe/London
+
+Add CONTRIBUTE POD section
+
+
 0.0.2     2012-04-20 15:16:43 Europe/London
 
 POD fix

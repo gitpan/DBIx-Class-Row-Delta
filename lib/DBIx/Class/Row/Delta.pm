@@ -1,6 +1,6 @@
 package DBIx::Class::Row::Delta;
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
-  $DBIx::Class::Row::Delta::VERSION = '0.0.2'; ## no critic (RequireUseStrict, RequireUseWarnings)
+  $DBIx::Class::Row::Delta::VERSION = '0.0.3'; ## no critic (RequireUseStrict, RequireUseWarnings)
 }
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
   $DBIx::Class::Row::Delta::DIST = 'DBIx-Class-Row-Delta';  ## no critic (RequireUseStrict, RequireUseWarnings)
@@ -180,6 +180,13 @@ L<http://cpanratings.perl.org/d/DBIx-Class-Row-Delta>
 L<http://search.cpan.org/dist/DBIx-Class-Row-Delta/>
 
 =back
+
+
+=head1 CONTRIBUTE
+
+The source for this module is on GitHub: https://github.com/jplindstrom/p5-DBIx-Class-Row-Delta
+
+Patches welcome, etc.
 
 
 =head1 AUTHOR
