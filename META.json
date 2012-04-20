@@ -1,0 +1,54 @@
+{
+   "abstract" : "Keep track of and report on changes to a DBIC row object.",
+   "author" : [
+      "Johan Lindstrom <johanl@cpan.org> - on behalf of Net-A-Porter"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "DBIx-Class-Row-Delta",
+   "no_index" : {
+      "directory" : [
+         "t/lib"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moose" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Class" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "Test::Most" : "0",
+            "parent" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "ssh://git@gitosis.net-a-porter.com:nap-policy",
+         "web" : "http://gitosis.net-a-porter.com/cgit/nap-policy"
+      }
+   },
+   "version" : "0.0.1"
+}
+
