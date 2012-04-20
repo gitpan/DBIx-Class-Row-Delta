@@ -1,6 +1,6 @@
 package DBIx::Class::Row::Delta;
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
-  $DBIx::Class::Row::Delta::VERSION = '0.0.1'; ## no critic (RequireUseStrict, RequireUseWarnings)
+  $DBIx::Class::Row::Delta::VERSION = '0.0.2'; ## no critic (RequireUseStrict, RequireUseWarnings)
 }
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
   $DBIx::Class::Row::Delta::DIST = 'DBIx-Class-Row-Delta';  ## no critic (RequireUseStrict, RequireUseWarnings)
@@ -22,7 +22,7 @@ string with the changed values.
   use DBIx::Class::Row::Delta;
 
   my $book = $book_rs->find(321);
-  my $book_notes_delta = NAP::DBIC::Row::Delta->new({
+  my $book_notes_delta = DBIC::Row::Delta->new({
       dbic_row    => $book,
       changes_sub => sub {
           my ($row) = @_;
