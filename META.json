@@ -45,10 +45,10 @@
    "resources" : {
       "repository" : {
          "type" : "git",
-         "url" : "ssh://git@gitosis.net-a-porter.com:nap-policy",
-         "web" : "http://gitosis.net-a-porter.com/cgit/nap-policy"
+         "url" : "git://github.com/jplindstrom/p5-DBIx-Class-Row-Delta.git",
+         "web" : "https://github.com/jplindstrom/p5-DBIx-Class-Row-Delta"
       }
    },
-   "version" : "0.0.3"
+   "version" : "0.0.4"
 }
 

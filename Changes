@@ -1,5 +1,10 @@
 Revision history for DBIx::Class::Row::Delta
 
+0.0.4     2012-04-23 10:36:25 Europe/London
+
+Fixed dist.ini config
+
+
 0.0.3     2012-04-20 15:29:05 Europe/London
 
 Add CONTRIBUTE POD section

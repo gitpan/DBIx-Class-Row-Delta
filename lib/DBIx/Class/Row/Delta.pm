@@ -1,6 +1,6 @@
 package DBIx::Class::Row::Delta;
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
-  $DBIx::Class::Row::Delta::VERSION = '0.0.3'; ## no critic (RequireUseStrict, RequireUseWarnings)
+  $DBIx::Class::Row::Delta::VERSION = '0.0.4'; ## no critic (RequireUseStrict, RequireUseWarnings)
 }
 BEGIN {  ## no critic (RequireUseStrict, RequireUseWarnings)
   $DBIx::Class::Row::Delta::DIST = 'DBIx-Class-Row-Delta';  ## no critic (RequireUseStrict, RequireUseWarnings)
