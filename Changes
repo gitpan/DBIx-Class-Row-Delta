@@ -1,8 +1,10 @@
 Revision history for DBIx::Class::Row::Delta
 
-0.0.4     2012-04-23 10:36:25 Europe/London
+0.0.5 -- 2014-10-11 20:25:46 UTC
 
 Fixed dist.ini config
+
+Fixed too strict test
 
 
 0.0.3     2012-04-20 15:29:05 Europe/London
